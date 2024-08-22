@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  font-smooth: antialiased;
+  -webkit-font-smoothing: antialiased;
+  scrollbar-gutter: stable;
+}
+
+main {
+  max-width: 1880px;
+  margin: 0 auto;
+  scrollbar-gutter: stable;
+
+  font-weight: normal;
+}
